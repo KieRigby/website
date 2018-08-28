@@ -1,0 +1,624 @@
+/*GLOBAL*/
+html{
+	width:100%;
+	overflow-x:hidden;
+}
+
+body{
+	font-family:'Open Sans', sans-serif;
+	background-color:#ffffff;
+	margin:0px;
+	color:#282827;
+	width:100%;
+	overflow-x:hidden;
+	text-rendering: optimizeLegibility;
+}
+
+h1{
+	margin-bottom:0px;
+}
+p{
+	margin-top:0px;
+	margin-bottom:20px;
+}
+
+h2{
+	font-weight:300;
+	margin-top:0px;
+	margin-bottom:5px;
+	font-size:26px;
+}
+h3{
+	font-weight:300;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:18px;
+}
+
+a{
+	color:#E25D33;
+}
+
+
+.input{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	margin-bottom:10px;
+	padding:5px 0px 5px 10px;
+	width:100%;
+}
+
+.input:focus{
+	border:1px solid #C5441C;
+}
+
+.textbox{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	margin-bottom:10px;
+	padding:5px 0px 5px 10px;
+	width:100%;
+	height:300px;
+	resize:none;
+}
+
+.textbox:focus{
+	border:1px solid #C5441C;
+}
+
+.button{
+	float:right;
+	background-color:#C5441C;
+	border:none;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	padding:5px 10px;
+	color:#fff;
+}
+
+.button:hover{
+	color:#cccccc;
+}
+
+header{
+	width:100%;
+	height:450px;
+	background:url('/img/bg.jpg') center center;
+	background-size:cover;
+}
+
+#logo{
+	width:70px;
+	height:70px;
+	float:left;
+	margin:10px 0px 0px 30px;
+}
+
+nav{
+	float:right;
+	margin:30px 30px 0px 0px;
+}
+
+nav a{
+	display:inline-block;
+	margin-left:20px;
+	font-weight:800;
+	color:#fff;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:rgba(255,255,255,0.6);
+}
+
+header h1{
+	font-size:72px;
+	color:#fff;
+	letter-spacing: 0.05em;
+	text-align:center;
+	clear:both;
+	padding-top:80px;
+	margin-bottom:0px;
+}
+
+header p{
+	font-size:20px;
+	color:#fff;
+	letter-spacing: 0.05em;
+	text-align:center;
+	font-weight:800;
+	margin-top:0px;
+}
+
+.centered{
+	text-align:center;
+}
+.orange{
+	color: #E25D33;
+}
+.white{
+	color:#fff;
+}
+.grey{
+	color:#282827;
+}
+.green{
+	color:#33E25D;
+}
+.bold{
+	font-weight:700;
+}
+.bigger{
+	font-size:40px;
+}
+
+#about{
+	margin-top:20px;
+	color: #E25D33;
+	height:1100px;
+}
+
+#kie{
+	width:100%;
+	border-radius: 50%;
+}
+
+#kie_con{
+	width:20%;
+	margin:0 auto;
+}
+
+#intro{
+	width:60%;
+	text-align:justify;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#thirds{
+	width:70%;
+	margin:0 auto;
+}
+
+.third{
+	width:33%;
+	display: inline-block;
+	float:left;
+}
+
+.third_content{
+	width:95%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.third_image{
+	width:80%;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+
+#portfolio{
+	background-color:#dcd8cf;
+	color:#E25D33;
+	padding-top:20px;
+}
+
+#work_con{
+	width:70%;
+	margin: 0 auto;
+	height:900px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+
+.back{
+	color:#282827;
+	font-size:40px;
+	width:28px;
+	height:28px;
+	cursor:pointer;
+}
+
+.work_screenshot{
+	float:left;
+	width:50%;
+}
+
+.work_info{
+	float:right;
+	width:49%;
+}
+
+
+#TLD_info{
+	width:100%;
+	display:none;
+}
+#piano_info{
+	width:100%;
+	display:none;
+}
+#film_info{
+	width:100%;
+	display:none;
+}
+#tactical_info{
+	width:100%;
+	display:none;
+}
+
+.job{
+	width:50%;
+	text-align:center;
+	margin-bottom:0px;
+	margin-top:-5px;
+	padding:0px;
+	cursor:pointer;
+}
+
+.left{
+	float:left;
+	margin-top:-5px;
+	margin-bottom:0px;
+
+}
+.right{
+	float:right;
+	margin-top:-5px;
+	margin-bottom:0px;
+}
+
+#contact{
+	background-color:#E25D33;
+	color:#ffffff;
+	padding-top:20px;
+	padding-bottom:30px;
+}
+
+#form{
+	width:40%;
+	padding:10px;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+
+#social{
+	background-color:#C5441C;
+	color:#fff;
+	padding-top:20px;
+	margin:0 auto;
+}
+
+#social_con{
+	width:600px;
+	margin:0 auto;
+}
+
+.social{
+	margin-bottom:30px;
+}
+
+footer{
+	width:100%;
+	height:120px;
+	background:#282827;
+}
+
+#footer_nav{
+	float:left;
+}
+
+#copyright{
+	float:right;
+	margin:30px 30px 0px 0px;
+	color:#fff;
+	font-weight:800;
+}
+#created{
+	font-weight:300;
+}
+
+
+/*media queries */
+@media screen and (max-width:360px){
+		#logo{
+		display: none;
+	}
+
+	nav{
+		width:100%;
+		margin:0 auto;
+		margin-top:20px;
+	}
+
+	nav a{
+		font-size:6px;
+	}
+
+	header h1{
+		padding-top:40px;
+		padding-bottom:20px;
+		font-size:46px;
+	}
+
+	header p{
+		width:80%;
+		text-align:center;
+		margin:0 auto;
+		font-size:18px;
+	}
+
+	#about{
+		height:1700px;
+	}
+
+	#kie_con{
+		width:200px;
+		border-radius:50%;
+		margin:0 auto;
+	}
+
+	#intro{
+		width:90%;
+	}
+
+	#thirds{
+		width:90%;
+		margin:0 auto;
+	}
+	.third{
+		width:100%;
+		display:block;
+		margin-bottom:30px;
+	}
+
+	#work_con{
+		width:90%;
+		margin:0 auto;
+	}
+
+	.job{
+		display:block;
+		width:100%;
+	}
+
+	.work_screenshot{
+		width:100%;
+		margin-bottom:10px;
+	}
+
+	.work_info{
+		width:100%;
+	}
+
+	#TLD_info{
+		width:90%;
+		margin:0 auto;
+	}
+	
+	#TLD_info h1{
+		font-size:30px;
+	}
+	#TLD_info h2{
+		font-size:20px;
+	}
+
+	#piano_info h1{
+		font-size:30px;
+	}
+	#piano_info h2{
+		font-size:20px;
+	}
+
+	#film_info h1{
+		font-size:30px;
+	}
+	#film_info h2{
+		font-size:20px;
+	}
+
+	#tactical_info h1{
+		font-size:30px;
+	}
+	#tactical_info h2{
+		font-size:20px;
+	}
+
+	#form{
+		width:85%;
+		margin:0 auto;
+	}
+
+	#social_con{
+		width:90%;
+		margin:0 auto;
+	}
+	#social_con img{
+		width:30px;
+	}
+
+	#footer_nav{
+		width:90%;
+		margin:0 auto;
+		float:none;
+		margin-bottom:0px;
+		padding-top:10px;
+		font-size:8px;
+	}
+
+	footer p{
+		width:90%;
+		margin:0 auto;
+		text-align:center;
+		font-size:10px;
+		margin-top:0px;
+		margin-bottom:20px;
+	}
+
+}
+
+/* MEDIA QUERIES BEGIN HERE! */
+@media screen and (max-width: 360px) and (min-width: 240px){
+	#logo{
+		display: none;
+	}
+
+	nav{
+		width:90%;
+		margin:0 auto;
+		margin-top:20px;
+	}
+
+	nav a{
+		font-size:10px;
+	}
+
+	header h1{
+		padding-top:40px;
+		padding-bottom:20px;
+		font-size:46px;
+	}
+
+	header p{
+		width:80%;
+		text-align:center;
+		margin:0 auto;
+		font-size:18px;
+	}
+
+	#about{
+		height:1700px;
+	}
+
+	#kie_con{
+		width:200px;
+		border-radius:50%;
+		margin:0 auto;
+	}
+
+	#intro{
+		width:90%;
+	}
+
+	#thirds{
+		width:90%;
+		margin:0 auto;
+	}
+	.third{
+		width:100%;
+		display:block;
+		margin-bottom:30px;
+	}
+
+	#work_con{
+		width:90%;
+		margin:0 auto;
+	}
+
+	.job{
+		display:block;
+		width:100%;
+	}
+
+	.work_screenshot{
+		width:100%;
+		margin-bottom:10px;
+	}
+
+	.work_info{
+		width:100%;
+	}
+
+	#TLD_info{
+		width:90%;
+		margin:0 auto;
+	}
+	
+	#TLD_info h1{
+		font-size:30px;
+	}
+	#TLD_info h2{
+		font-size:20px;
+	}
+
+	#piano_info h1{
+		font-size:30px;
+	}
+	#piano_info h2{
+		font-size:20px;
+	}
+
+	#film_info h1{
+		font-size:30px;
+	}
+	#film_info h2{
+		font-size:20px;
+	}
+
+	#tactical_info h1{
+		font-size:30px;
+	}
+	#tactical_info h2{
+		font-size:20px;
+	}
+
+	#form{
+		width:85%;
+		margin:0 auto;
+	}
+
+	#social_con{
+		width:90%;
+		margin:0 auto;
+	}
+	#social_con img{
+		width:50px;
+	}
+
+	#footer_nav{
+		width:90%;
+		margin:0 auto;
+		float:none;
+		margin-bottom:0px;
+		padding-top:10px;
+	}
+
+	footer p{
+		width:90%;
+		margin:0 auto;
+		text-align:center;
+		font-size:14px;
+		margin-top:0px;
+		margin-bottom:20px;
+	}
+
+
+}
+
+@media screen and (max-width:970px) and (min-width:670px){
+	#footer_nav{
+		width:90%;
+		margin:0 auto;
+		float:none;
+		margin-bottom:0px;
+		padding-top:10px;
+	}
+
+	footer p{
+		width:90%;
+		margin:0 auto;
+		float:none;
+		text-align:center;
+		margin-top:0px;
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width:570px) and (min-width:360px){
+	#logo{
+		display:none;
+	}
+}

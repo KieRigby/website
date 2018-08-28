@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class='full'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Platinum Catering & Party Occasions</title>
+
+    <link rel='stylesheet' href='styles/main5.css'>
+    <link rel='stylesheet' href='styles/bootstrap.min.css'>
+    <link href="styles/animate.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/form.js"></script>
+
+    <script>
+      function response(data){
+        console.log(data);
+        if(data.status == "success"){
+          $("#response").html(data.message).removeClass("hidden").addClass("form-success animated slideInRight");
+        }else{
+          $("#response").html(data.message).removeClass("hidden").addClass("form-error animated slideInRight");
+        }
+      }
+    </script>
+  </head>
+  <body>
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=178145532323591";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class='container header'>
+      <div class='row'>
+        <div class='col-md-4 col-md-push-4 nav-logo'><img src='img/logo.png' class='logo'></div>
+        <div class='col-md-2 col-md-pull-4 nav-item'><a href='#about' class='nav-link'>About</a></div>
+        <div class='col-md-2 col-md-pull-4 nav-item'><a href='#testimonial' class='nav-link'>Testimonials</a></div>
+        <div class='col-md-2 nav-item'><a href='#service' class='nav-link'>Services</a></div>
+        <div class='col-md-2 nav-item'><a href='#contact' class='nav-link'>Contact</a></div>
+      </div>
+
+      <div class='row'>
+        <div class='col-md-6'>
+          <h1 class='tagline'>One call, <br>we do it all!</h1>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-md-4'>
+          <div class='CTA'><span class='glyphicon glyphicon-earphone'></span> 0151 721 9774</div>
+        </div>
+      </div>
+      <div class='row'>
+          <div class='col-md-4'>
+            <div class='CTA'><span class='glyphicon glyphicon-phone'></span> 07765983345</div>
+          </div>
+          <div class='col-md-2 social'>
+            <a class='link-none' href='https://www.instagram.com/platinumcateringparty/' target="_blank"><span class="socicon-instagram white-icon"></span></a>
+            <a class='link-none' href='https://www.facebook.com/platinumcateringandpartyoccasions/' target='_blank'><span class="socicon-facebook white-icon"></span></a>
+          </div>
+
+      </div>
+    </div>
+    </div>
+
+
+    <div class='container-fluid about' id='about'>
+      <div class='row'>
+        <div class='col-md-12 no-margin'>
+          <h1 class='welcome'>Welcome to Platinum Catering<br>&amp; Party Occasions</h1>
+        </div>
+        <div class='col-md-6 divide'>
+          <p class='nicola-quote'>"Based in West Derby, Liverpool, Platinum Catering & Party Occasions has been established for over 6 years & have over 24 years of experience in the catering & events industry.<br><br> We offer all you require to make your occasion memorable without the stress. Offering hot & cold food from £4.95pp, DJs, children's entertainment, balloons, banners, invitations, venue dressing, candy carts, chocolate fountains, slush popcorn candy floss & hotdog machines for hire plus lots lots more.<br></p>
+          <h2 class='package-heading'>We also offer <u>package</u> deals...</h2><p class='nicola-quote-2'> Saving you time and money! <br><br>Take a look at the full list of services we have below.<br><br><span class='black'>For all enquiries or to check availability<br><br> please call us for a friendly chat</span><br><br> on 0151 721 9774 or on mobile 07765983345."</p>
+          <p class='nicola-title'><b>- Nicola</b><br> <i>Founder</i></p>
+        </div>
+        <div class='col-md-6'>
+          <p class='social-tag'>Why not <a href='https://www.facebook.com/platinumcateringandpartyoccasions/' target='_blank'>like</a> our<br>Facebook page?</p>
+          <center><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fplatinumcateringandpartyoccasions%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=178145532323591" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></center><br><br>
+        </div>
+      </div>
+    </div>
+
+    <div class='photo-wall'>
+      <div class='photo'><img src='img/photowall/1.jpeg' width='100%'/></div><div class='photo'>
+        <img src='img/photowall/2.jpeg' width='100%'/></div><div class='photo'>
+          <img src='img/photowall/3.jpeg' width='100%'/></div><div class='photo'>
+            <img src='img/photowall/4.jpeg' width='100%'/></div>
+    </div>
+
+    <div class='container-fluid testimonials' id='testimonial'>
+      <div class='row'>
+        <div class='col-md-4 testimonial'><img src='img/person1.png'><h1 class='test-name'>Eberley Bish</h1><p class='test-quote'>"Thank you very much for everything you done for the boys' special day! The food was gorgeous and the kids loved the candy ferris wheel. Everyone commented on how the room looked and I will not be booking with anyone else in the future for parties and would recommend you to anyone as you are such a professional lady and was there to answer any of questions I had. Thank you again!"</p></div>
+        <div class='col-md-4 testimonial'><img src='img/person2.png'><h1 class='test-name'>Clare Shallcross</h1><p class='test-quote'>"Thank you so much for your part in Penelope's special day! Everyone commented on the food and how fantastic it all was, the variety and quality of everything! Believe me, my family knows buffets haha! All the extras were perfect and done as described. Balloons were fab, poster was perfect and the sweetie wheel was well stocked and well used! Your rates are very reasonable and your professionalism on the day and in the planning shone through and gave me confidence. Excellent service, food and pack up and take down too. Really couldn't ask for anything more!"</p></div>
+        <div class='col-md-4 testimonial'><img src='img/person3.png'><h1 class='test-name'>Bob Doe</h1><p class='test-quote'>"Thank you so much for an amazing spread yesterday! Everyone commented on what an good spread it was. The entertainer was also fab, I think the adults enjoyed him just as much as the kids! Everything you provided was spot on and really made the day a much more enjoyable event for me knowing that you had it all under control and I didn't need to do anything! I'm already thinking what I can have another party for so I can use your services again. My husband is 40 next year so I'll persuade him to have a party for that! I'll definitely be recommending your service!"</p></div>
+      </div>
+    </div>
+
+    <div class='container-fluid services' id='service'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/buffet.jpg'><p class='serv-name'>Hot & Cold Buffets</p><p class='serv-desc'>Delicious food for a range of dietry options from only £4.95 per person! View our menus <a href='menus.html'>here</a></p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/balloons.jpg'><p class='serv-name'>Balloons</p><p class='serv-desc'>Decorative balloons in a wide range of <a href='balloons.jpg'>colours</a> to make your next event extra special!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/banners.jpg'><p class='serv-name'>Banners</p><p class='serv-desc'>Memorable banners made to your liking, on a strong canvas in a range of colours!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/instagram.jpg'><p class='serv-name'>Instagram Frames</p><p class='serv-desc'>Iconic Instagram frames to capture amazing photos and the location of your event!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/facebook.jpg'><p class='serv-name'>Facebook Frames</p><p class='serv-desc'>Fantasic Facebook frames to hype up your photos for social media!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/giantcard.jpg'><p class='serv-name'>Giant Cards</p><p class='serv-desc'>Make that special person have an unforgettable day with a lovely giant card!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/invitation.jpg'><p class='serv-name'>Invitations</p><p class='serv-desc'>Invite your friends and family with style with our beautifully designed invitations!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/cardboardcutout.jpg'><p class='serv-name'>Cardboard Cut-outs</p><p class='serv-desc'>We offer full sized cardboard cut-outs of your favourite people for your events.</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/chairs.jpg'><p class='serv-name'>Chair Covers & Bows</p><p class='serv-desc'>Let us beautifully decorate your room with chair covers, bows and much more!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/tabledressing.jpg'><p class='serv-name'>Table Dressing</p><p class='serv-desc'>Make your guests feel at home by letting us dressing your tables to the finest standard.</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/tablecenter.jpg'><p class='serv-name'>Table Centre Pieces</p><p class='serv-desc'>Choose from <a href='table.html'>many</a> of our gorgeous table centre pieces to add that special touch!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/mascot.jpg'><p class='serv-name'>Mascots</p><p class='serv-desc'>Get your guests smiling with one of our brilliant mascots for the evening!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/thrones.jpg'><p class='serv-name'>Thrones</p><p class='serv-desc'>Sit in style with your other half during your special day with these comfortable but epic thrones!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/ledtable.jpg'><p class='serv-name'>LED Top Table</p><p class='serv-desc'>Bring the stars to your wedding with our glamorous LED top table!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/mrmrs.jpg'><p class='serv-name'>Mr &amp; Mrs</p><p class='serv-desc'>A beautiful decoration to add that extra flare to your wedding day!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/bus.jpg'><p class='serv-name'>Party Bus</p><p class='serv-desc'>Let the little ones free in our extremely fun party bus with a giant slide into ball pitt!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/aisle.jpg'><p class='serv-name'>Aisle Runners</p><p class='serv-desc'>Personalized beautiful aisle runners for your big day available in 20ft and 30ft!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/candyfloss.jpg'><p class='serv-name'>Candy Floss Machine</p><p class='serv-desc'>Fluffy, delicious candy floss made in our magical candy floss machine with multiple flavours!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/popcorn.jpg'><p class='serv-name'>Popcorn machine</p><p class='serv-desc'>Enjoy our freshly made popcorn with a variety of flavouring options like sweet and salted!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/slush.jpg'><p class='serv-name'>Slush machine</p><p class='serv-desc'>Cool-off with a refreshing slushy from our slush machine with many flavours available!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/hotdog.jpg'><p class='serv-name'>Hot Dog Machine</p><p class='serv-desc'>Eat in true American style with our awesome hot dog machine! We also provide condiments. </p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/ferriswheel.jpg'><p class='serv-name'>Candy Ferris Wheel</p><p class='serv-desc'>Eat your candy in unique style from the candy ferris wheel with a large selection of sweets! </p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/candytable.jpg'><p class='serv-name'>Candy Cart Hire</p><p class='serv-desc'>Feed your sweet tooth with our tasty selection of candy served on a stylish cart!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/partycones.jpg'><p class='serv-name'>Party Sweet Cones </p><p class='serv-desc'>We also can serve our selection of sweets in cute cones suitable for all your guests!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/champagnetower.jpg'><p class='serv-name'>Champagne Glass Tower</p><p class='serv-desc'>Stare in awe at our spectacular champagne glass tower and even enjoy a drink or two!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/chocolatefountain.jpg'><p class='serv-name'>Chocolate Fountain</p><p class='serv-desc'>Endulge in our luxurious chocolate fountains and sooth your taste buds with a taste!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/champagnefountain.jpg'><p class='serv-name'>Champagne Fountain</p><p class='serv-desc'>Lose yourself in flowing champange with our marvelous champagne fountains!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/selfiebooth.jpg'><p class='serv-name'>Selfie Pod</p><p class='serv-desc'>Don't be camera shy around our selfie pod, open up and create some great memories!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/photobooth.jpg'><p class='serv-name'>Photo Booth</p><p class='serv-desc'>Along side our selfie pod, we also offer a full photo booth with props and printer!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/ledfloor.jpg'><p class='serv-name'>LED Dance Floors</p><p class='serv-desc'>Get down on the dance floor with our funky flashing LED dance floors!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/ledcurtain.jpg'><p class='serv-name'>LED Twinkle Curtain Backdrop</p><p class='serv-desc'>Illuminate your event and with our starry LED twinkle curtain backdrops which come with a stable stand!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/wishingwell.jpg'><p class='serv-name'>Wishing Well Postbox</p><p class='serv-desc'>Have your guests leave you a wishful message with our wonderful message post boxes and reflect on the event afterwards!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/dj.jpg'><p class='serv-name'>DJ</p><p class='serv-desc'>We have a variety of DJs available playing chart music &amp; all the usual party classics &amp; an old Skool DJ offering dance music remixes with laser show.</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/karaoke.jpg'><p class='serv-name'>Karaoke</p><p class='serv-desc'>Or even sing the night away and have a laugh with your friends singing your favourite songs!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/children.jpg'><p class='serv-name'>Children's entertainment</p><p class='serv-desc'>Take care of those little angels with our fully CRB checked children's entertainers.</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/facepainting.jpg'><p class='serv-name'>Face Painting</p><p class='serv-desc'>Our creative artists can face paint a wide variety of characters, animals and more!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/glitter.jpg'><p class='serv-name'>Glitter Tattoos </p><p class='serv-desc'>Choose from our collection of fabulous designs and get yourself a lovely sparkling tattoo!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/magician.jpg'><p class='serv-name'>Close up Magician</p><p class='serv-desc'>Blow your mind and entertain your guests with our unbelievable close-up magician!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/marquees.jpg'><p class='serv-name'>Marquees</p><p class='serv-desc'>Want to hold your event outdoors? Not a problem! Hire one of our spacious marquees!</p></div></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'><div class='service'><img src='img/services/cinderella.jpg'><p class='serv-name'>Cake Tables</p><p class='serv-desc'>Make that cake stand out from the rest by placing it on one of our Luxury cake stands!</p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/turbo.jpg'><p class='serv-name'>Wedding Photography</p><p class='serv-desc'>Capture the meaningful moments of your special day or event with <a href='https://www.jackanthonyphotography.co.uk/' target='_BLANK'><span class='turbo_alt'>Jack Anthony Photography.</span></a></p></div></div>
+          <div class='col-md-4'><div class='service'><img src='img/services/planner.jpg'><p class='serv-name'>Wedding Planner</p><p class='serv-desc'>Let us take care of making your dream day become a reality!</p></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class='container-fluid contact' id='contact'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12'><p class='contact-title'>Want to enquire?</p></div>
+        </div>
+        <div class='row'>
+
+          <div class='col-md-6'>
+            <div id='response' class='form-error hidden'>
+              This is a generic error message!
+            </div>
+            <form action='send.php' method='POST' class='ajax'>
+              <label for='name'>Full Name:</label><br>
+              <input type='text' name='name' placeholder='Full Name' required><br>
+              <label for='email'>Email address:</label><br>
+              <input type='email' name='email' placeholder='Email Address' required><br>
+              <label for='phone'>Phone Number:</label><br>
+              <input type='tel' name='phone' placeholder='Phone Number' required><br>
+              <label for='name'>Message:</label><br>
+              <textarea name='message' placeholder='Message' required></textarea><br>
+          </div>
+
+          <div class='col-md-6 contact-items'>
+            <p class='contact-item'><span class='glyphicon glyphicon-envelope'></span> enquiries@platinumcateringandparties.co.uk</p>
+            <p class='contact-item'><span class='glyphicon glyphicon-earphone'></span> 0151 721 9774</p>
+            <p class='contact-item'><span class='glyphicon glyphicon-phone'></span> 07765983345</p>
+          </div>
+
+        </div>
+
+        <div class='row'>
+          <div class='col-md-6 align-right'>
+            <input type='submit' name='submit' value='Submit'>
+            </form>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-12 align-center'>
+            <p class='turbo'>Website created by <a href='http://kierigby.com' target='_blank'>Kieran Rigby</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
